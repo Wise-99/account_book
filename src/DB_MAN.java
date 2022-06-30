@@ -4,9 +4,9 @@ import java.util.*;
 
 public class DB_MAN {
     String strDriver = "com.mysql.cj.jdbc.Driver";
-    String strURL = "jdbc:mysql://127.0.0.1:3306/javadb?characterEncoding=UTF-8&serverTimezone=UTC";
+    String strURL = "WRITE_YOUR_SQL_URL";
     String strUser = "root";
-    String strPWD = "yer9210kek^^";
+    String strPWD = "WRITE_YOUR_PASSWD";
     
     Connection DB_con;
     Statement DB_stmt;
